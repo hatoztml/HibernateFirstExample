@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 5.3//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">
+
+<hibernate-mapping>
+    <class name="HibernateExample.User" table="user_table" >
+        <id name="id" type="int" column="user_id" >
+            <column name="id" />
+            <generator class="native"/>
+        </id>
+
+        <property name="user_name">
+        <column name="user_name" /></property>
+
+        <property name="created_by">
+        <column name="created_by" /></property>
+
+        <property name="created_date">
+        <column name="created_date" /></property>
+
+    </class>
+
+</hibernate-mapping>

@@ -1,0 +1,6 @@
+<root>
+    <item name='org.hibernate.boot.spi.XmlMappingBinderAccess mappingBinder'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>
